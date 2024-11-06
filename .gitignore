@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Playwright downloads (browsers)
+playwright-python/browsers/
+
+# Playwright test results
+test-results/
+*.log
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS specific files
+.DS_Store
+
+# System-specific files
+Thumbs.db
+ehthumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+.installed.cfg
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# pylint
+.pylint.d/
+pylint_report.txt
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Selenium screenshots or video artifacts
+*.png
+*.mp4
+*.webm
+
+# Ignore Playwright trace artifacts (if used)
+trace.zip
+*.trace
+
+# Ignore test reports if using any reporting plugins
+reports/
